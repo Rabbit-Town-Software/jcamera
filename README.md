@@ -75,7 +75,7 @@ follower.update(deltaTime);
 
 ## License
 
-JTiled is licensed under the **GNU General Public License v3.0 (GPL-3.0)**.  
+JCamera is licensed under the **GNU General Public License v3.0 (GPL-3.0)**.  
 You are free to use, modify, and distribute the code, as long as any modified versions remain under the same license.
 
 - ✔️ Commercial use allowed
