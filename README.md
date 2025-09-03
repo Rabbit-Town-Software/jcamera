@@ -21,12 +21,21 @@ It provides simple world-to-screen transformations, camera following, and bounda
 
 ## Installation
 
-Download the latest release from [Releases](../../releases) and add the JAR to your project’s classpath:
+### Option 1 – Manual JAR
+Download the latest [release](https://github.com/Rabbit-Town-Software/jcamera/releases) and add it to your project.
 
-```bash
-javac -cp jcamera-1.0.0.jar MyGame.java
-java -cp .;jcamera-1.0.0.jar MyGame
+**Gradle**
+```gradle
+implementation files('libs/jcamera-1.0.0.jar')
 ```
+
+**Maven (local install)**
+```bash
+mvn install:install-file   -Dfile=jcamera-1.0.0.jar   -DgroupId=org.rabbittownsoftware   -DartifactId=jcamera   -Dversion=1.0.0   -Dpackaging=jar
+```
+
+### Option 2 – Source & Javadoc
+Include `jcamera-1.0.0-sources.jar` and `jcamera-1.0.0-javadoc.jar` for inline documentation in your IDE.
 
 ---
 
@@ -63,3 +72,17 @@ follower.update(deltaTime);
 ```
 
 ---
+
+## Rabbit Town Software
+
+<br/>
+
+<p align="center">
+  <img src="https://github.com/Rabbit-Town-Software/misa-engine/blob/eb3aa63bad02385d2af4b7b130d1bde70e2a2715/assets/rabbittownlogo.jpg?raw=true" alt="Rabbit Town Software Logo" width="180"/>
+</p>
+
+<p align="center">
+  <strong>Rabbit Town Software</strong><br/>
+  Open-source. No compromise.
+</p>
+
