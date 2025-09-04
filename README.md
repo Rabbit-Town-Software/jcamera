@@ -88,8 +88,8 @@ You are free to use, modify, and distribute the code, as long as any modified ve
 ## Contact
 
 Questions, bug reports, or feature requests?  
-Email: [support@rabbittownsoftware.com](mailto:support@rabbittownsoftware.com)
-Or open an [issue!](https://github.com/Rabbit-Town-Software/jcamera/issues/new)
+- Email: [support@rabbittownsoftware.com](mailto:support@rabbittownsoftware.com)
+- Or open an [issue!](https://github.com/Rabbit-Town-Software/jcamera/issues/new)
 
 ---
 
