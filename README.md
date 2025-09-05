@@ -58,7 +58,8 @@ boundary.enforceBounds(camera);
 ### Camera Following
 ```java
 // Define a simple object with x/y
-class Player implements Positionable {
+class Player implements Positionable
+{
     private float x, y;
     public float getX() { return x; }
     public float getY() { return y; }
