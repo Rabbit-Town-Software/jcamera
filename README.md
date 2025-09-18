@@ -93,42 +93,6 @@ cd jcamera
 
 This produces JARs under `build/libs/`, which you can then include in your project manually.  
 
-
----
-
-## Usage
-
-### Basic Camera
-```java
-Camera camera = new Camera(0, 0, 16, 9); // Start at (0,0), 16x9 world units
-
-camera.move(1, 0);   // Move right by 1 unit
-camera.setPosition(5, 5); // Jump to (5,5)
-```
-
-### Camera Boundaries
-```java
-CameraBoundary boundary = new CameraBoundary(0, 0, 100, 100);
-boundary.enforceBounds(camera);
-```
-
-### Camera Following
-```java
-// Define a simple object with x/y
-class Player implements Positionable
-{
-    private float x, y;
-    public float getX() { return x; }
-    public float getY() { return y; }
-}
-
-Player player = new Player();
-CameraFollower follower = new CameraFollower(camera, player, 5.0f, true);
-
-// Inside your game loop
-follower.update(deltaTime);
-```
-
 ---
 
 ## License
