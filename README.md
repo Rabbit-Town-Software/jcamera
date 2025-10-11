@@ -19,6 +19,8 @@ It provides simple world-to-screen transformations, camera following, and bounda
 
 ---
 
+ ## Looking for the [documentation?](https://github.com/case-presley/jcamera/tree/master/docs)
+
 ## Installation
 
 JCamera is currently distributed as standalone JARs through the [GitHub Releases page](https://github.com/case-presley/jcamera/releases).  
@@ -111,21 +113,5 @@ You are free to use, modify, and distribute the code, as long as any modified ve
 
 Questions, bug reports, or feature requests?  
 - Email: [support@casepresley.com](mailto:support@casepresley.com)
-- Or open an [issue!](https://github.com/case-presley/jcamera/issues/new)
-
----
-
-
-## Rabbit Town Software
-
-<br/>
-
-<p align="center">
-  <img src="https://github.com/case-presley/misa-engine/blob/eb3aa63bad02385d2af4b7b130d1bde70e2a2715/assets/rabbittownlogo.jpg?raw=true" alt="Rabbit Town Software Logo" width="180"/>
-</p>
-
-<p align="center">
-  <strong>Rabbit Town Software</strong><br/>
-  Open-source. No compromise.
-</p>
+- Or open an [issue!](https://github.com/case-presley/janimation/issues/new)
 
