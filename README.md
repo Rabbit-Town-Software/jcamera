@@ -1,21 +1,13 @@
 # JCamera
 
-**JCamera** is a lightweight Java library for handling **2D camera systems** in games and simulations.  
-It provides simple world-to-screen transformations, camera following, and boundary restrictions.
+A lightweight Java library for handling **2D camera systems** in games and simulations.  
 
----
+It provides: 
 
-## Features
-
-- **2D Camera Control**
-    - Move or snap instantly to any position.
-    - World-to-screen transformations with scaling.
-- **Camera Boundaries**
-    - Restrict movement to world/map limits.
-    - Dynamically update bounds if the world size changes.
-- **Camera Following**
-    - Smooth follow (lerp-style) or instant snapping.
-    - Works with any object that implements a simple position interface.
+- **Camera** – World-to-screen transform and viewport control.
+- **CameraBoundary** – Restricts a camera to a defined world area.
+- **CameraFollower** – Lets a camera track a target entity.
+- **Positionable** – Minimal interface for any object with a world position.
 
 ---
 
