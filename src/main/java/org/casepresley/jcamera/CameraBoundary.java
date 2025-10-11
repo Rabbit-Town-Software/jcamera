@@ -1,4 +1,4 @@
-package main.java.org.rabbittownsoftware.jcamera;
+package main.java.org.casepresley.jcamera;
 
 /**
  * CameraBoundary restricts the Camera so it cannot move outside a defined world area (in world units).

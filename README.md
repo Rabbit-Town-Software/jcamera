@@ -21,13 +21,13 @@ It provides simple world-to-screen transformations, camera following, and bounda
 
 ## Installation
 
-JCamera is currently distributed as standalone JARs through the [GitHub Releases page](https://github.com/Rabbit-Town-Software/jcamera/releases).  
+JCamera is currently distributed as standalone JARs through the [GitHub Releases page](https://github.com/case-presley/jcamera/releases).  
 You can include it in your project in several ways, depending on your build system.  
 
 ---
 ### Manual JAR (Recommended for most users)
 
-Download the latest **jcamera-1.0.0.jar**, **jcamera-1.0.0-sources.jar**, and **jcamera-1.0.0-javadoc.jar** and place it into your project’s `libs/` folder.  
+Download the latest **jcamera-1.0.1.jar**, **jcamera-1.0.0-sources.jar**, and **jcamera-1.0.0-javadoc.jar** and place it into your project’s `libs/` folder.  
 
 **Gradle**  
 ```gradle
@@ -44,7 +44,7 @@ Since JCamera isn’t on Maven Central, you can install it into your local Maven
 ```bash
 mvn install:install-file     
 -Dfile=jcamera-1.0.0.jar     
--DgroupId=org.rabbittownsoftware     
+-DgroupId=org.casepresley     
 -DartifactId=jcamera     
 -Dversion=1.0.0     
 -Dpackaging=jar
@@ -53,7 +53,7 @@ mvn install:install-file
 Then include it in your `pom.xml`:  
 ```xml
 <dependency>
-  <groupId>org.rabbittownsoftware</groupId>
+  <groupId>org.casepresley</groupId>
   <artifactId>jcamera</artifactId>
   <version>1.0.0</version>
 </dependency>
@@ -86,7 +86,7 @@ Attach them manually in your IDE:
 Clone the repo and build with Gradle:  
 
 ```bash
-git clone https://github.com/Rabbit-Town-Software/jcamera.git
+git clone https://github.com/case-presley/jcamera.git
 cd jcamera
 ./gradlew build
 ```
@@ -110,8 +110,8 @@ You are free to use, modify, and distribute the code, as long as any modified ve
 ## Contact
 
 Questions, bug reports, or feature requests?  
-- Email: [support@rabbittownsoftware.com](mailto:support@rabbittownsoftware.com)
-- Or open an [issue!](https://github.com/Rabbit-Town-Software/jcamera/issues/new)
+- Email: [support@casepresley.com](mailto:support@casepresley.com)
+- Or open an [issue!](https://github.com/case-presley/jcamera/issues/new)
 
 ---
 
@@ -121,7 +121,7 @@ Questions, bug reports, or feature requests?
 <br/>
 
 <p align="center">
-  <img src="https://github.com/Rabbit-Town-Software/misa-engine/blob/eb3aa63bad02385d2af4b7b130d1bde70e2a2715/assets/rabbittownlogo.jpg?raw=true" alt="Rabbit Town Software Logo" width="180"/>
+  <img src="https://github.com/case-presley/misa-engine/blob/eb3aa63bad02385d2af4b7b130d1bde70e2a2715/assets/rabbittownlogo.jpg?raw=true" alt="Rabbit Town Software Logo" width="180"/>
 </p>
 
 <p align="center">

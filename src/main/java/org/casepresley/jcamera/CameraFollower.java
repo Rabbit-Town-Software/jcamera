@@ -1,4 +1,4 @@
-package main.java.org.rabbittownsoftware.jcamera;
+package main.java.org.casepresley.jcamera;
 
 import java.util.Objects;
 
