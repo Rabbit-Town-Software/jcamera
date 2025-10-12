@@ -13,6 +13,8 @@ It provides:
 
  ## Looking for the [documentation?](https://github.com/case-presley/jcamera/tree/master/docs)
 
+  ## Looking for the [privacy policy?](https://github.com/case-presley/jcamera/tree/master/privacy-policy.md)
+
 ## Installation
 
 JCamera is currently distributed as standalone JARs through the [GitHub Releases page](https://github.com/case-presley/jcamera/releases).  
