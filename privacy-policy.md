@@ -1,4 +1,4 @@
-# Privacy & License – JCamera
+# Privacy Policy – JCamera
 
 ## Privacy Policy
 
